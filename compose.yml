@@ -4,6 +4,8 @@ services:
     container_name: windows
     environment:
       VERSION: "core11"
+      USERNAME: "troi"
+      PASSWORD: "troinux"
     devices:
       - /dev/kvm
     cap_add:
